@@ -23,17 +23,20 @@ cd <projectRootDir> & yarn ios
 yarn test
 ```
 
-## Project 
+## Base dependencies
 
-```python
-import foobar
+* [@react-navigation](https://reactnavigation.org/): handles screen navigation
 
-# returns 'words'
-foobar.pluralize('word')
+* [axios](https://axios-http.com/docs/intro): handles network requests
 
-# returns 'geese'
-foobar.pluralize('goose')
+* [@testing-library/react-native](https://testing-library.com/): handles unit testing
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+## Project structure
+
+* `src`: Base folder that contains all the code
+    * `api`: This folder contains all api calls
+    * `common`: This folder contains theme files and utils
+    * `components`: This folder contains all the reusable components of your app
+    * `context`: This folder contains the global state management of this app
+    * `navigation`: This folder contains all file parts of your navigation
+    * `screns`: This folder contains all the screens used in navigation
