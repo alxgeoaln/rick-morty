@@ -4,6 +4,10 @@ Lists Rick and Morty characters
 
 
 
+https://user-images.githubusercontent.com/23573176/212935011-d4b8aad8-bc6e-4543-8b68-d7cbae471aee.mov
+
+
+
 ## Installation
 
 Use the package manager [yarn](https://yarnpkg.com/) to install the project.
