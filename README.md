@@ -1,6 +1,8 @@
 # Rick and Morty project
 
-List Rick and Morty characters
+Lists Rick and Morty characters
+
+
 
 ## Installation
 
