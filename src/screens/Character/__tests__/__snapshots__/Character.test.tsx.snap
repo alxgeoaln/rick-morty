@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character screen should match snapshot 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      }
+    }
+    style={
+      [
+        {
+          "aspectRatio": 1,
+        },
+        undefined,
+      ]
+    }
+    testID="cover-img-test-id"
+  />
+  <View
+    style={
+      {
+        "borderWidth": 1,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 30,
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
+      }
+      testID="card-name-test-id"
+    >
+      Beth Smith
+    </Text>
+    <Text>
+      Human
+      , 
+      Female
+       - 
+      Alive
+       
+    </Text>
+    <Text>
+      Number of episodes - 42
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 20,
+          },
+          {
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      Earth (Replacement Dimension)
+    </Text>
+    <Text
+      style={
+        {
+          "fontWeight": "700",
+          "marginTop": 10,
+        }
+      }
+    >
+      Last known location
+    </Text>
+    <Text>
+      Earth (Replacement Dimension)
+    </Text>
+  </View>
+</View>
+`;
